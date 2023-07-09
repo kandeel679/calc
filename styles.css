@@ -197,7 +197,16 @@ body {
     border-radius: 100%;
     margin: 0;
     margin-bottom: 12px;
-    font-size: 19px;}
+    font-size: 19px;
+    transition: all 200ms;
+  }
+    
+    .btn:hover{
+      opacity: 0.8;
+    }
+    .btn:active{
+      transform: scale(1.2);
+    }
 .num{
   background-color: #464385;
   color: white;
